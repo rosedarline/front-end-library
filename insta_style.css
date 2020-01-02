@@ -80,10 +80,9 @@ input {
 .log-in {
     display: flex;
     flex-direction: column;
-    align-self: inherit;
     border: 1px solid rgb(238, 236, 236);
-    border-radius: 1px;
-    padding: 1.5em 1.5em;
+    border-radius: 2px;
+    padding: 1em 1em;
     margin-top: 2vh;
     max-width: 20.5vw;
     width: 100%;
@@ -102,6 +101,3 @@ input {
     font-size: 12px;
     margin: 10vh 0;
 }
-
-@media only screen and (min-device-width: 480px) {}
-@media only screen and (min-device-width: 768px) {}

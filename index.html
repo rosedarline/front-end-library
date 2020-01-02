@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Hello World</title>
-    </head>
+<head>
+    <title>Hello World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <h1>Hello</h1>
-    </body>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <form action="" class="twitter-form">
+                <div class="row">
+                    <img src="" alt="">
+                    <button type="submit">Next</button>
+                </div>
+                <h1>Create your account</h1>
+                <label for="name">Name</label>
+                <input name="name" class="underlined" type="text" pattern="[A-Za-z]" title="Use letters only.">
+                <label for="phone">Phone</label>
+                <input name="phone" class="underlined" type="tel">
+                <label for="dob" class="dob">Date of birth</label>
+                <p class="disclosure">This will not be shown publicly. Confirm your age to receive the
+                    appropriate experience.
+                </p>
+                <label for="month">Month</label>
+                <select name="month" class="underlined" id="month">
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+                <label for="month">Day</label>
+                <select name="day" class="underlined" id="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <label for="year">Year</label>
+                <select name="year" class="underlined" id="year">
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                </select>
+            </form>
+        </div>
+    </div>
+</body>
 
 </html>
